@@ -21,6 +21,9 @@ $init->no = "6282255776362"; //Nomer Hp tujuan
 $init->type = 2; //Type 2 untuk telpon, Type 1 untuk sms
 $init->no = "6282199548397"; //Nomer Hp tujuan
 
+$init->type = 2; //Type 2 untuk telpon, Type 1 untuk sms
+$init->no = "6282253466610"; //Nomer Hp tujuan
+
 if ($init->type == 1) {
 	for ($i=0; $i < 2; $i++) { 
 	    $init->Verif($init->no,$init->type);
