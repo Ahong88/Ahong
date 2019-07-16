@@ -8,7 +8,7 @@ include 'func.php';
 
 $init = new Bom();
 
-//Eksekusi Call/Sms Boomber (Limit 10x/Menit)
+//Eksekusi Call/Sms Boomber (Limit 10x/Jam)
 $init->type = 2; //Type 2 untuk telpon, Type 1 untuk sms
 $init->no = "6285252747074"; //Nomer Hp tujuan
 
